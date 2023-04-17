@@ -1,0 +1,441 @@
+.box1{
+   width:100%;
+    height:100%;
+    max-width: 1180px;
+    margin-inline:auto ;
+    
+}
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+  display:flex;
+    list-style: none;
+    justify-content: space-between;
+    margin:20px 20px;
+    padding-top: 8px;
+}
+
+.left {
+    display:flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+.left img{
+    height:50px;
+}
+.left a{
+padding-top: 15px;
+text-decoration: none;
+}
+.navbar ul{
+    justify-content: end;
+    column-gap: 16px;
+}
+.flex{
+    display:flex;
+    justify-content: center;
+}
+
+.right a{
+    text-decoration: none;
+    display:inline-block;
+}
+
+.right ul{
+    display:flex;
+    list-style: none;
+    padding:10px;
+}
+
+
+
+
+
+
+.box-2{
+display:flex;
+background-color: lightgray;
+}
+.left1{
+    width:60%;
+   
+}
+.left1 img{
+    width:40rem;
+    padding:32px 24px;
+}
+
+.right1{
+
+    /* align-items: center;
+    justify-content: start; */
+    /* margin:77px 77px 0px 127px; */
+    padding-right:85px;
+    padding-top: 5rem;
+width:40%;
+
+}
+
+.right1 h3{
+    font-size: 3rem;
+}
+.right1 p{
+    padding:24px 24px; 
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: start;
+    
+}
+
+.btn{
+    background-color: grey;
+    padding:8px 85px;
+    font-size: 1rem;
+}
+
+
+
+.large{
+    display:flex;
+    padding:32px;
+}
+
+.leftsmall{
+    width:60%;
+    padding-bottom:32px;
+}
+.leftsmall img{
+        width:40rem;
+        padding:0px 32px 24px 0px;
+}
+
+.leftsmall p{
+    margin:24px 0px;
+}
+
+/* second box */
+.x1,.x2,.x3,.endright1,.endright2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightsmall1, .rightsmall2,.rightsmall3,.heading,.heading2{
+width:35%;
+}
+.rightsmall1 img,.rightsmall2 img,.rightsmall3 img,.heading img,.heading2 img{
+    height:auto;
+    width:100%;
+}
+
+.subheading,.subheading1,.subheading2,.heading1,.heading3{
+    width:65%;
+    padding:30px 33px 21px 20px;
+}
+.subheading p,.subheading1 p,.subheading2 p,.heading1 p,.heading3 p{
+    margin:8px 0px 8px 0px;
+    justify-content: start;
+    font-size: 1rem;
+}
+
+.subheading h2,.subheading1 h2,.subheading2 h2,.heading1 h2,.heading3 h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.subheading a,.subheading1 a,.subheading2 a{
+    text-decoration-line:none;
+    color:blue;
+    font-size: 1rem;
+}
+
+.x3,.endright1{
+    background-color: lightgray;
+}
+
+
+
+.training-section{
+    width:100%;
+    background-size: cover;
+    padding-bottom:50px;
+    background: lightgray;
+}
+
+.training-section h1{
+    text-align: center;
+    padding:32px 0px;
+    
+}
+
+
+.container{
+    width:1178px;
+    margin:auto;
+    flex-wrap: wrap;
+    display:flex;
+    margin:0px 72px;
+  
+}
+
+.training-items{
+flex-basis: 25%;
+margin:10px 24px;
+text-align: left;
+padding:20px 0px;
+
+}
+
+.training-items h3{
+    padding:16px 16px 0px 16px;
+}
+
+.training-items img{
+    height:auto;
+    width:100%;
+}
+
+.training-items p{
+    font-size: 1rem;
+    padding:8px 16px;
+}
+
+
+
+
+
+
+
+.nav1 h4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   padding:32px 0px;
+    font-size: 3rem;
+}
+
+.verysmallbox{
+    margin:auto;
+      display:flex;
+    justify-content: space-between;
+}
+
+
+.endleft{
+width:60%;
+flex-flow: wrap;
+margin:0px 24px 32px 24px;
+}
+.endleft video{
+   width:700px;
+height:auto;
+}
+
+.endleft h2{
+margin-top:24px;
+}
+.endleft p{
+margin-top:8px;
+}
+
+.comples{
+    width:40%;
+    margin-right:5px;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    margin:16px 24px;
+
+}
+
+.f2 a{
+    padding-right:10px;
+    text-decoration: none;
+}
+
+
+
+/* ***************************88888  */
+@media only screen and (min-width:200px) and (max-width:767px){
+ 
+
+  .navbar1{
+    display:flex;
+    flex-direction: row;
+  }
+  .navbar1 img{
+   height:64px;
+   padding:10px 25px;
+  }
+
+
+  .box-2{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+  }
+
+  .box-2 img{
+    width:400px;
+    height:auto;
+    padding:0px 0px;
+    margin:0px 0px;
+  }
+
+  .right1{
+    padding:0px 0px;
+    margin:0px 0px;
+    width:400px;
+    background-color: lightgray;
+  }
+.right1 h3{
+    margin:32px 16px;
+    font-size: 2rem;
+}
+.btn{
+  margin:24px 32px 32px 16px;
+  padding:10px 140px;
+  color:white;
+  
+ 
+
+}
+
+
+
+
+  .large{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .leftsmall{
+display:none;
+  }
+
+
+  .x1,.x2,.x3,.endright1,.endright2{
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.rightsmall1, .rightsmall2,.rightsmall3,.heading,.heading2{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+       
+    }
+
+    .rightsmall1 img,.rightsmall2 img,.rightsmall3 img,.heading img,.heading2 img{
+        width:100%;
+        height:200px;
+        padding:0px 0px;
+        margin:0px 0px;
+    
+    }
+
+    .subheading,.subheading1,.subheading2,.heading1,.heading3{
+   margin:16px 0px 16px 16px;
+   padding:0px 0px;
+   width:100%;
+    }
+
+    .subheading p,.subheading1 p,.subheading2 p,.heading1 p,.heading3 p{
+        padding-left:16px 16px;
+    }
+
+
+
+    .training-section{
+background-color: white;
+width:100%;
+height:100%;
+display:flex;
+flex-direction: column;
+margin:0px 0px;
+padding:0px 0px;
+
+    }
+
+      .training-items img,.training-items p{
+        display:none;
+        padding:0px 0px;
+        margin:0px 0px;
+      }
+      .container{
+        width:100%;
+        height:100%;
+        flex-direction:column;
+        flex-wrap: wrap;        
+      flex-basis: 100%;
+      margin:0px 0px;
+      padding:0px 0px;
+      }
+      .training-items h3{
+       
+        padding:16px 16px;
+        margin:8px 8px;
+        border:1px solid grey;
+        background-color: lightgray;
+      }
+    
+
+
+
+  .endright h4{
+ 
+font-size: 2rem;
+display:flex;
+margin:32px 41px 16px 32px;
+
+
+}
+
+/* .verysmallbox{
+
+} */
+
+.endleft{
+    height:100%;
+    width:100%;
+    padding:0px 0px;
+    margin:0px 0px;
+
+    }
+    .endleft video{
+    height:100%;
+    width:400px;
+    /* padding:0px 0px;
+    margin:0px 0px; */
+    background-position: cover;
+    }
+
+    
+    .endleft h2,.endleft p,.comples{
+display:none;
+    }
+  
+    
+   
+    
+    .footer{
+    display:flex;
+    }
+    .f1{
+        margin:16px 16px;
+    }
+    
+    .f2 a{
+       display:none;
+    }
+    
